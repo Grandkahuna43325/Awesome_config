@@ -68,7 +68,7 @@ local globalKeys =
   ),
   awful.key(
     {modkey},
-    'w',
+    'win',
     function()
       awful.spawn("/home/grandkahuna43325/vmware/runscript_win10")
     end,
